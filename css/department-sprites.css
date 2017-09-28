@@ -1,0 +1,164 @@
+.our-team-department[data-name="app"] .our-team-department-button {
+    width: 111px; height: 38px;
+    background: url('../images/department/sprites.png') -155px -10px;
+}
+
+.our-team-department[data-name="backend"] .our-team-department-button {
+    width: 108px; height: 39px;
+    background: url('../images/department/sprites.png') -10px -180px;
+}
+
+.our-team-department[data-name="design"] .our-team-department-button {
+    width: 109px; height: 35px;
+    background: url('../images/department/sprites.png') -260px -239px;
+}
+
+.our-team-department[data-name="frontend"] .our-team-department-button {
+    width: 108px; height: 33px;
+    background: url('../images/department/sprites.png') -10px -352px;
+}
+
+.our-team-department[data-name="internal"] .our-team-department-button {
+    width: 105px; height: 30px;
+    background: url('../images/department/sprites.png') -270px -297px;
+}
+
+.our-team-department[data-name="market"] .our-team-department-button {
+    width: 111px; height: 32px;
+    background: url('../images/department/sprites.png') -139px -297px;
+}
+
+.our-team-department[data-name="news_and_media"] .our-team-department-button {
+    width: 125px; height: 36px;
+    background: url('../images/department/sprites.png') -10px -66px;
+}
+
+.our-team-department[data-name="planning"] .our-team-department-button {
+    width: 107px; height: 38px;
+    background: url('../images/department/sprites.png') -286px -10px;
+}
+
+.our-team-department[data-name="product"] .our-team-department-button {
+    width: 105px; height: 38px;
+    background: url('../images/department/sprites.png') -10px -239px;
+}
+
+.our-team-department[data-name="relation"] .our-team-department-button {
+    width: 107px; height: 38px;
+    background: url('../images/department/sprites.png') -286px -126px;
+}
+
+.our-team-department[data-name="video"] .our-team-department-button {
+    width: 105px; height: 28px;
+    background: url('../images/department/sprites.png') -266px -352px;
+}
+
+.our-team-department[data-name="app"]:hover .our-team-department-button {
+    width: 111px; height: 38px;
+    background: url('../images/department/sprites.png') -10px -122px;
+}
+
+.our-team-department[data-name="backend"]:hover .our-team-department-button {
+    width: 108px; height: 39px;
+    background: url('../images/department/sprites.png') -138px -180px;
+}
+
+.our-team-department[data-name="design"]:hover .our-team-department-button {
+    width: 109px; height: 35px;
+    background: url('../images/department/sprites.png') -10px -297px;
+}
+
+.our-team-department[data-name="frontend"]:hover .our-team-department-button {
+    width: 108px; height: 33px;
+    background: url('../images/department/sprites.png') -138px -352px;
+}
+
+.our-team-department[data-name="internal"]:hover .our-team-department-button {
+    width: 105px; height: 30px;
+    background: url('../images/department/sprites.png') -286px -184px;
+}
+
+.our-team-department[data-name="market"]:hover .our-team-department-button {
+    width: 111px; height: 32px;
+    background: url('../images/department/sprites.png') -155px -68px;
+}
+
+.our-team-department[data-name="news_and_media"]:hover .our-team-department-button {
+    width: 125px; height: 36px;
+    background: url('../images/department/sprites.png') -10px -10px;
+}
+
+.our-team-department[data-name="planning"]:hover .our-team-department-button {
+    width: 107px; height: 38px;
+    background: url('../images/department/sprites.png') -141px -122px;
+}
+
+.our-team-department[data-name="product"]:hover .our-team-department-button {
+    width: 105px; height: 38px;
+    background: url('../images/department/sprites.png') -135px -239px;
+}
+
+.our-team-department[data-name="relation"]:hover .our-team-department-button {
+    width: 107px; height: 38px;
+    background: url('../images/department/sprites.png') -286px -68px;
+}
+
+.our-team-department[data-name="video"]:hover .our-team-department-button {
+    width: 105px; height: 28px;
+    background: url('../images/department/sprites.png') -413px -10px;
+}
+
+.our-team-name[data-name="app"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -286px;
+}
+
+.our-team-name[data-name="backend"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -96px;
+}
+
+.our-team-name[data-name="design"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -89px -405px;
+}
+
+.our-team-name[data-name="frontend"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -172px;
+}
+
+.our-team-name[data-name="internal"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -210px;
+}
+
+.our-team-name[data-name="market"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -248px;
+}
+
+.our-team-name[data-name="news_and_media"] {
+    width: 76px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -58px;
+}
+
+.our-team-name[data-name="planning"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -324px;
+}
+
+.our-team-name[data-name="product"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -362px;
+}
+
+.our-team-name[data-name="relation"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -10px -405px;
+}
+
+.our-team-name[data-name="video"] {
+    width: 59px; height: 18px;
+    background: url('../images/department/sprites.png') -413px -134px;
+}
