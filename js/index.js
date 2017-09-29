@@ -1,4 +1,10 @@
 jQuery(function ($) {
+    var fixOurTeamIntroductionSize = function () {
+        var $ourTeamIntroductionContainer = $('.our-team-introduction-container');
+        $ourTeamIntroductionContainer.height($ourTeamIntroductionContainer.width() * 415 / 1213);
+    };
+    $(window).on('resize', fixOurTeamIntroductionSize);
+    $('.our-team-introduction-container .swiper-slide').on('load', fixOurTeamIntroductionSize);
     var ourTeamIntroductionSwiper = new Swiper('.our-team-introduction-container', {
         centeredSlides: true,
         slideToClickedSlide: true,

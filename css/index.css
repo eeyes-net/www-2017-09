@@ -169,8 +169,16 @@ html, body {
 
 .project-item.scale img {
     height: 100%;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
     transition: transform 1s;
-    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .project-item.scale img:hover {
@@ -361,12 +369,8 @@ html, body {
 .our-team-introduction-container {
     margin: 0 auto;
     width: 72em;
+    height: auto;
     max-width: 100%;
-}
-
-.our-team-introduction img {
-    width: 72em;
-    max-width: 100vw;
 }
 
 @media screen and (max-width: 640px) {
