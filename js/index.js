@@ -35,3 +35,35 @@ jQuery(function ($) {
         ourTeamIntroductionSwiper.slideTo(minIndex);
     });
 });
+jQuery(function ($) {
+    var translateY = function (el, offset) {
+        var translate = 'translate(0, ' + offset + 'px)';
+        el.style.webkitTransform = translate;
+        el.style.mozTransform = translate;
+        el.style.msTransform = translate;
+        el.style.oTransform = translate;
+        el.style.transform = translate;
+    };
+    var $items = $('.project-item.scale');
+    $(window).on('scroll', function () {
+        var lastItemTop = $items.last().offset().top;
+        var firstItemHeight = $items.first().height();
+        var reset = false;
+        if (window.innerWidth > 640 || lastItemTop <= window.scrollY) {
+            reset = true;
+        }
+        $items.each(function () {
+            var $item = $(this);
+            var $wrapper = $item.find('.project-item-wrapper');
+            var offset = window.scrollY - $item.offset().top;
+            if (offset < 0 || reset) {
+                offset = 0;
+            }
+            translateY($wrapper[0], .5 * offset);
+            $wrapper.css('opacity', (1 - .6 * offset / firstItemHeight))
+        });
+    });
+    $(window).on('resize', function () {
+        $(window).trigger('scroll');
+    })
+});
