@@ -297,8 +297,6 @@ html, body {
 .our-team-department-button {
     display: inline-block;
     width: 6.6em;
-    background: no-repeat center;
-    background-size: contain;
     text-indent: -9999px;
     vertical-align: middle;
 }
