@@ -91,7 +91,7 @@ jQuery(function ($) {
                 var x = (t - 8500) / 1000;
                 var y = baseScale * (1 - 3 * Math.cos(8 * (x + 0.15)) * Math.exp(-5 * x));
                 $halloweenImage.css('transform', 'scale(' + y + ')');
-            } else  {
+            } else {
                 $halloweenImage.css('transform', 'scale(' + baseScale + ')');
             }
         }
@@ -155,15 +155,22 @@ jQuery(function ($) {
     var t0 = Date.now();
     if (t0 >= Date.parse('2017-10-30 12:00:00')
         && t0 < Date.parse('2017-11-01 12:00:00')) {
-        var timer = setInterval(function () {
-            var t = Date.now();
-            t = t - t0;
-            if (halloweenAnimate(t)) {
-                clearInterval(timer);
-                $('body').css('background-color', '');
-                $('.banner').css('opacity', '');
-                $('.halloween-cover').remove();
-            }
-        }, 16);
+        // 预缓存图片
+        $halloweenImageCache = $('<img class="halloween-image-cache" style="display: block; position: absolute; top: 0; left: 0; opacity: 0;" width="1" height="1" src="halloween/images/pumpkin.png">');
+        $('body').append($halloweenImageCache);
+        $halloweenImageCache.on('load', function () {
+            var t0 = Date.now();
+            var timer = setInterval(function () {
+                var t = Date.now();
+                t = t - t0;
+                if (halloweenAnimate(t)) {
+                    clearInterval(timer);
+                    $('body').css('background-color', '');
+                    $('.banner').css('opacity', '');
+                    $('.halloween-cover').remove();
+                    $('.halloween-image-cache').remove();
+                }
+            }, 16);
+        });
     }
 });
