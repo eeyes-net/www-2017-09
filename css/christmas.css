@@ -1,0 +1,45 @@
+#a{
+     float:right;
+}
+#house{
+     position: relative;
+     left: 28em;
+     top: -11.05em;
+     width: 20%;
+     height: 15%;
+}
+#b{
+    float:left;
+}
+#bb{
+    position:relative;
+    left:4.3em;
+    z-index:2;
+}
+#tree{
+    position:absolute;
+    top:155.4em;
+    right:16.5em;
+    height:16%;
+}
+#cc{
+    height:15%;
+    z-index:1;
+    position:absolute;
+    top:111.5em;
+    left:17em;
+}
+#hat{
+    height:23%;
+    z-index:1;
+    position:absolute;
+    top:72em;
+    left:11em;
+}
+#lu{
+    height:20%;
+    z-index:1;
+    position:absolute;
+    top:117.5em;
+    right:29.1em;
+}
