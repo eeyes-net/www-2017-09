@@ -1,3 +1,6 @@
+/**
+ * @return {http://www.wufangbo.com/js-snow/} [飘雪效果]
+ */
 (function() {
     function k(a, b, c) {
         if (a.addEventListener) a.addEventListener(b, c, false);

@@ -43,3 +43,16 @@
     top:117.5em;
     right:29.1em;
 }
+.down{
+    position:relative;
+    top: -20px; 
+    left: -5px
+}
+#down3{
+    position: relative; 
+    top: -25px; 
+    left: -5px
+}
+#add{
+    background-image: url(./images/ch/presence.png);
+}
