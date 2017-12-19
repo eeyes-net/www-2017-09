@@ -15,9 +15,7 @@ li {
 
 html, body {
     font-size: 16px;
-}
-
-body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
