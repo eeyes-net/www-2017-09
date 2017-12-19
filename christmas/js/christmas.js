@@ -201,7 +201,7 @@ jQuery(function ($) {
         }, 2000);
         setTimeout(function () {
             ChristmasTheme.drawSnow();
-        }, 2500);
+        }, 3000);
     };
 
     /**
