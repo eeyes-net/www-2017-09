@@ -21,7 +21,7 @@ html, body {
 
 .container {
     margin: 0 auto;
-    width: 1140px;
+    width: 1050px;
     max-width: 100%;
 }
 
@@ -163,14 +163,14 @@ html, body {
 }
 
 .project-item-wrapper {
-    height: 22em;
+    height: 20em;
     margin: 1em;
     overflow: hidden;
 }
 
 .project-item.scale img {
     height: 100%;
-    background-color: #fff;
+  /*background-color: #fff;*/
     -webkit-transition: transform 1s;
     -moz-transition: transform 1s;
     -ms-transition: transform 1s;
@@ -221,7 +221,7 @@ html, body {
  */
 
 .our-team {
-    margin: 5em auto;
+    /* margin: 5em auto; */
     text-align: center;
 }
 
@@ -458,14 +458,22 @@ html, body {
 /**
  * presence
  */
+.add {
+    padding: 5em 0 5em 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 .presence {
-    margin: 5em auto;
+    /* margin: 5em auto; */
     text-align: center;
+    height: auto;
+    width: auto;
+
 }
 
 .presence-img-wrapper {
-    margin: 5em auto;
+    margin: 10em auto 5em auto;
     width: 100%;
 }
 
@@ -484,7 +492,7 @@ html, body {
  */
 
 .join-us {
-    margin: 5em auto;
+    margin: 5em auto 0 auto;
 }
 
 .join-us-button {
