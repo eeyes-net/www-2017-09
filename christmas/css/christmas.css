@@ -1,0 +1,114 @@
+body.christmas {
+    color: #eee;
+    background-color: #335;
+}
+
+.christmas .banner-bg {
+    opacity: 0;
+}
+
+.christmas .banner-bg.christmas-banner-bg {
+    opacity: 1;
+}
+
+.christmas-theme-element {
+    position: relative;
+    z-index: 2;
+    height: 0;
+}
+
+.christmas-banner-snow img {
+    width: 100%;
+    transform: scale(1.14) translate(0, -40%);
+}
+
+.christmas .project h2 {
+    color: #eee;
+    border-color: #eee;
+}
+
+.project-item.scale .christmas-theme-element img {
+    width: 100%;
+    height: initial;
+    background-color: initial;
+}
+
+.project-item.scale .christmas-project-hat img {
+    transform: scale(0.4) translate(-30%, -40%);
+    transform-origin: left top;
+}
+
+.project-item.scale .christmas-project-snowman img {
+    transform: scale(.4) translate(-50%, 100%);
+    transform-origin: left;
+}
+
+@media screen and (max-width: 1140px) {
+    .project-item.scale .christmas-project-snowman img {
+        transform: scale(.4) translate(-20%, 100%);
+    }
+}
+
+.project-item.scale .christmas-project-dear img {
+    transform: scale(.4) translate(1%, -20%);
+    transform-origin: left top;
+}
+
+@media screen and (max-width: 1140px) {
+    .project-item.scale .christmas-project-dear img {
+        transform: scale(.4) translate(-4%, -20%);
+    }
+}
+
+.project-item.scale .christmas-project-tree img {
+    transform: scale(.25) translate(60%, -10%);
+    transform-origin: right;
+}
+
+@media screen and (max-width: 1140px) {
+    .project-item.scale .christmas-project-tree img {
+        transform: scale(.25) translate(0, -10%);
+    }
+}
+
+.christmas-team-group-snow {
+    position: relative;
+    top: -1em;
+}
+
+.christmas-team-group-snow img {
+    width: 100%;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 640px) {
+    .christmas-team-group-snow {
+        top: -.5em;
+    }
+}
+
+.christmas-team-house {
+    text-align: right;
+}
+
+.christmas-team-house img {
+    transform: scale(0.5) translate(-30%, -82%);
+    transform-origin: top right;
+}
+
+@media screen and (max-width: 1140px) {
+    .christmas .our-team-body {
+        padding-bottom: 7em;
+    }
+}
+
+.christmas .our-team {
+    margin-bottom: 0;
+}
+
+.christmas .presence {
+    margin-top: 0;
+    padding-top: 5em;
+    background: url(../images/member/bg.png) repeat-x center top;
+    background-size: cover;
+}
