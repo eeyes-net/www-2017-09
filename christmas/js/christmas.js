@@ -213,7 +213,7 @@ jQuery(function ($) {
         var loadedCount = 0;
         var callback = function () {
             ++loadedCount;
-            if (loadedCount >= 2) {
+            if (loadedCount >= 2 || document.readyState === 'complete') {
                 ChristmasTheme.start();
             }
         };
