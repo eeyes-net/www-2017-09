@@ -197,10 +197,10 @@ jQuery(function ($) {
         }, 1000);
         setTimeout(function () {
             ChristmasTheme.changeTheme();
-            // ChristmasTheme.snowfall();
         }, 2000);
         setTimeout(function () {
             ChristmasTheme.drawSnow();
+            ChristmasTheme.snowfall();
         }, 3000);
     };
 
